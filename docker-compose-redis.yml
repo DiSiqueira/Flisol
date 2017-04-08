@@ -1,0 +1,6 @@
+meu_redis:
+    image: redis:latest
+    ports:
+        - 6379:6379
+    volumes:
+        - /Users/disiqueira/Playground/Flisol/redis_data:/data
